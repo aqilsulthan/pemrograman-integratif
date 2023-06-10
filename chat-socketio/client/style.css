@@ -1,0 +1,76 @@
+.container-pesan {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Inter', sans-serif;
+}
+
+.pesan {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    font-family: 'Inter', sans-serif;
+    text-align: right;
+}
+
+.pesan-r {
+    background-color: #4CAF50;
+    color: #fff;
+    border-color: #4CAF50;
+    text-align: right;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+  
+input[type="text"]:focus {
+    box-shadow: 0 0 5px #4CAF50;
+  }
+
+#kirim {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3a94bd;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+  
+#kirim:hover {
+    background-color: #2E8B57;
+  }
+
+.center {
+    text-align: center;
+  }
+
+.hoverable {
+    color: black;
+    transition: color 0.3s ease-in-out;
+}
+
+.hoverable:hover {
+    color: #2E8B57;
+}
+  
+  
